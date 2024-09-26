@@ -1,0 +1,36 @@
+# Custom data for safety helmet
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: C:/Users/22496/Desktop/hand/hand_gesture_dataset/images/train
+val: C:/Users/22496/Desktop/hand/hand_gesture_dataset/images/val
+
+# number of classes
+nc: 10
+
+# class names
+names: [ 'A', 'number 7', 'D', 'I', 'L', 'V', 'W', 'Y', 'I love you', 'number 5' ]
+
+#a 握拳                刹车 对应 A
+#number 5 对应 比五     前进 对应 number 5
+#L 对应 比L             左转 对应 L
+#Y 对应 比六            倒车 对应 Y
+#我爱你 对应 摇滚
+#V 对应 比耶            右转 对应 V
+#w 对应 比三
+#7 对应 兰花指
+#i 对应 拉钩            鸣笛 对应 I
+#
+#
+#修改上述代码：
+#代码中传入的参数组为： 'A', 'number 7', 'D', 'I', 'L', 'V', 'W', 'Y', 'I love you', 'number 5'
+#label可能为以上的值之一；
+#
+#刹车 对应 A
+#前进 对应 number 5
+#左转 对应 L
+#倒车 对应 Y
+#右转 对应 V
+#鸣笛 对应 I
+#按照以下规则转换label
+#其余转换成空
